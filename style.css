@@ -1,3 +1,4 @@
+/*Style rules for mobile viewport*/
 header {
   background-color: #007056;
   color: #ffffff;
@@ -7,6 +8,8 @@ nav {
   float: left;
   background-color: #007056;
   color: #ffffff;
+  text-decoration: none;
+  font-size: 1em;
 }
 
 nav ul {
@@ -15,6 +18,8 @@ nav ul {
 
 footer table {
   text-align: center;
+  table-layout: auto;
+  width: 180px;
 }
 
 footer {
