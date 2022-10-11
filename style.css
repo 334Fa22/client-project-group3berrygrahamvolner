@@ -9,6 +9,10 @@ nav {
   color: #ffffff;
 }
 
+footer table {
+  text-align: center;
+}
+
 footer {
   background-color: #007056;
   color: #ffffff;
