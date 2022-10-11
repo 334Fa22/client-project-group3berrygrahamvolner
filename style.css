@@ -1,5 +1,3 @@
-/* Paige Berry, Owen Graham, Derek Volner */
-
 header {
   background-color: #007056;
   color: #ffffff;
@@ -9,7 +7,10 @@ nav {
   float: left;
   background-color: #007056;
   color: #ffffff;
-  padding: 50px;
+}
+
+nav ul {
+  list-style-type: none;
 }
 
 footer table {
