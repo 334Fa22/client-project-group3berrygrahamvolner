@@ -26,3 +26,17 @@ footer {
   background-color: #007056;
   color: #ffffff;
 }
+
+.northwest-nav a{
+  color: #fff;
+  font-family: "Francois One", sans-serif;
+  text-align: center;
+  font-size: 2em;
+  text-decoration: none;
+  padding: 3%;
+  display: block;
+
+}
+#nav-html{
+  display: none;
+}
