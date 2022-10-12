@@ -1,11 +1,16 @@
 /*Style rules for mobile viewport*/
 header {
   background-color: #007056;
+  text-align: center;
   color: #ffffff;
+  font-size: 2em;
+}
+
+header img {
+  display: none;
 }
 
 nav {
-  float: left;
   background-color: #007056;
   color: #ffffff;
   text-decoration: none;
@@ -16,14 +21,9 @@ nav ul {
   list-style-type: none;
 }
 
-footer table {
-  text-align: center;
-  table-layout: auto;
-  width: 180px;
-}
-
 footer {
   background-color: #007056;
+  text-align: center;
   color: #ffffff;
 }
 
