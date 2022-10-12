@@ -27,7 +27,7 @@ footer {
   color: #ffffff;
 }
 
-.northwest-nav a{
+.northwest-nav a {
   color: #fff;
   font-family: "Francois One", sans-serif;
   text-align: center;
@@ -35,8 +35,8 @@ footer {
   text-decoration: none;
   padding: 3%;
   display: block;
-
 }
-#nav-html{
+
+#nav-html {
   display: none;
 }
