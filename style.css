@@ -4,6 +4,7 @@ header {
   text-align: center;
   color: #ffffff;
   font-size: 2em;
+  padding: 1%;
 }
 
 header img {
@@ -28,7 +29,7 @@ footer {
 }
 
 .northwest-nav a {
-  color: #fff;
+  color:#ffffff;
   font-family: "Francois One", sans-serif;
   text-align: center;
   font-size: 2em;

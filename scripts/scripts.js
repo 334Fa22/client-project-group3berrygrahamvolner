@@ -1,4 +1,4 @@
-function menufunction(){
+function navfunction(){
   var nav = document.getElementById("nav-html");
 
   if(nav.style.display=== "block")
