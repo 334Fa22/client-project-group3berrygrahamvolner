@@ -42,6 +42,10 @@ footer {
   display: block;
 }
 
+.button {
+  background-image: url("images/indexBack.jpg");
+}
+
 .button button {
   display: block;
   width: 100%;
