@@ -42,6 +42,37 @@ footer {
   display: block;
 }
 
+.button button {
+  display: block;
+  width: 100%;
+  background-color: #007056;
+  font-size: 1em;
+  font-weight: bold;
+  color: white;
+  align-items: center;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border: none;
+  cursor: pointer;
+  margin-top: 5px;
+  box-shadow: 0px, 2px, 0px, #000000;
+}
+
+.button p {
+  font-size: 2em;
+  text-align: center;
+  font-weight: bold;
+}
+
 #nav-html {
   display: none;
 }
+
+/* Media Query for Tablet Viewport */
+@media screen and (min-width: 630px), print {
+
+  /* Media Query for Desktop Viewport */
+  @media screen and (min-width: 1015px), print {}
+
+  /* Media Query for Large Desktop Viewports */
+  @media screen and (min-width: 1921px) {}
