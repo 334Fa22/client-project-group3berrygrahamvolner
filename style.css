@@ -22,6 +22,10 @@ nav ul {
   list-style-type: none;
 }
 
+main {
+  background-image: url();
+}
+
 footer {
   background-color: #007056;
   text-align: center;
@@ -29,7 +33,7 @@ footer {
 }
 
 .northwest-nav a {
-  color:#ffffff;
+  color: #ffffff;
   font-family: "Francois One", sans-serif;
   text-align: center;
   font-size: 2em;
