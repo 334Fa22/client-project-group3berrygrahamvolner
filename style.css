@@ -88,8 +88,14 @@ footer {
     float: left;
     height: 150px;
   }
+}
 
   /* Media Query for Desktop Viewport */
-  @media screen and (min-width: 1015px), print {}
+  @media screen and (min-width: 1015px), print {
 
-  header img {}
+  header img {
+    display: inline;
+    float: left;
+    height: 150px;
+  }
+}
