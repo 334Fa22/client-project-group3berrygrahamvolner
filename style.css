@@ -90,9 +90,8 @@ footer {
   }
 }
 
-  /* Media Query for Desktop Viewport */
-  @media screen and (min-width: 1015px), print {
-
+/* Media Query for Desktop Viewport */
+@media screen and (min-width: 1015px), print {
   header img {
     display: inline;
     float: left;
