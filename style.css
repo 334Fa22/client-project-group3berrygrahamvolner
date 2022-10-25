@@ -33,9 +33,13 @@ nav ul {
 main {}
 
 footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   background-color: #007056;
+  color: white;
   text-align: center;
-  color: #ffffff;
 }
 
 .northwest-nav a {
@@ -48,7 +52,7 @@ footer {
   display: block;
 }
 
-.button {
+main {
   background-image: url("images/indexBack.jpg");
   background-repeat: no-repeat;
   background-size: auto;
@@ -86,10 +90,17 @@ footer {
   header img {
     display: inline;
     float: left;
-    height: 150px;
+    height: 95px;
+  }
+
+  .button {
+    display: inline-grid;
+    grid-template-columns: auto auto;
+  }
+
+  .button a {
+    margin: 10px;
   }
 
   /* Media Query for Desktop Viewport */
   @media screen and (min-width: 1015px), print {}
-
-  header img {}
