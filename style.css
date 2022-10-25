@@ -101,6 +101,13 @@ main {
   .button a {
     margin: 10px;
   }
+}
 
-  /* Media Query for Desktop Viewport */
-  @media screen and (min-width: 1015px), print {}
+/* Media Query for Desktop Viewport */
+@media screen and (min-width: 1015px), print {
+  header img {
+    display: inline;
+    float: left;
+    height: 150px;
+  }
+}
