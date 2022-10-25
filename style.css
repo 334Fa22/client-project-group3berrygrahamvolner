@@ -1,3 +1,10 @@
+/* CSS Reset */
+body, header, nav, main, footer, {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
 /*Style rules for mobile viewport*/
 header {
   top: 0;
