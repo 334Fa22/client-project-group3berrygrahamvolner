@@ -1,11 +1,8 @@
-/* CSS Reset */
-body, header, nav, main, footer, {
-  margin: 0;
-  padding: 0;
-  border: 0;
+/*Style rules for mobile viewport*/
+main {
+  margin: 0px;
 }
 
-/*Style rules for mobile viewport*/
 header {
   top: 0;
   background-color: #007056;
@@ -21,6 +18,8 @@ header img {
 }
 
 nav {
+  margin-top: 0;
+  margin-bottom: 0;
   background-color: #007056;
   color: #ffffff;
   text-decoration: none;
@@ -31,9 +30,7 @@ nav ul {
   list-style-type: none;
 }
 
-main {
-  background-image: url();
-}
+main {}
 
 footer {
   background-color: #007056;
@@ -53,6 +50,9 @@ footer {
 
 .button {
   background-image: url("images/indexBack.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  margin: 0;
 }
 
 .button button {
@@ -83,9 +83,13 @@ footer {
 
 /* Media Query for Tablet Viewport */
 @media screen and (min-width: 630px), print {
+  header img {
+    display: inline;
+    float: left;
+    height: 150px;
+  }
 
   /* Media Query for Desktop Viewport */
   @media screen and (min-width: 1015px), print {}
 
-  /* Media Query for Large Desktop Viewports */
-  @media screen and (min-width: 1921px) {}
+  header img {}
