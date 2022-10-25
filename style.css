@@ -97,4 +97,10 @@ footer {
     float: left;
     height: 150px;
   }
+
+  form {
+    display: block;
+    margin: 5px;
+    
+  }
 }
