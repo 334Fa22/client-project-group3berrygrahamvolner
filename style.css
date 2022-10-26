@@ -52,10 +52,20 @@ footer {
   padding: 9%;
   display: block;
 }
-.fieldset1-glance{
+/*fieldset values*/
+
+.fieldset2-glance, .fieldset1-glance, #disclaimer-OOAG{
   background-color: #ffffff;
   background-blend-mode: color;
 
+}
+legend{
+  background-color: #ffffff;
+  border-style: solid;
+  border-width: thin;
+}
+label{
+  display: block;
 }
 
 main {
@@ -155,8 +165,7 @@ footer {
       width: auto;
       margin-left: 0;
       margin-right: 0;
-      background-color: #000033;
-      box-shadow: 3px 3px 3px #000033;
+      background-color: ##007056;
       align-items: flex-start;
       margin-top:7%
   }
@@ -187,9 +196,7 @@ footer {
       width: auto;
       margin-left: 0;
 		  margin-right: 0;
-		  background-color: #000033;
-		  box-shadow: 3px 3px 3px #000033;
-      align-items: flex-start;
+		  background-color: #007056;
   }
   nav { font-weight: bold;
   float: left;
