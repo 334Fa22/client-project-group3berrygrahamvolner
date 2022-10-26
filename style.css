@@ -11,6 +11,7 @@ header {
   font-size: 2em;
   padding: 1%;
   height: 90px;
+  margin-bottom: auto;
 }
 
 header img {
@@ -41,15 +42,20 @@ footer {
   color: white;
   text-align: center;
 }
-
+/*navigation for phone/default view*/
 .northwest-nav a {
   color: #ffffff;
   font-family: "Francois One", sans-serif;
   text-align: center;
   font-size: 1.5em;
   text-decoration: none;
-  padding: 2%;
+  padding: 9%;
   display: block;
+}
+.fieldset1-glance{
+  background-color: #ffffff;
+  background-blend-mode: color;
+
 }
 
 main {
@@ -80,7 +86,7 @@ main {
   text-align: center;
   font-weight: bold;
 }
-
+/*makes tablet-nav not display*/
 #nav-html {
   display: none;
 }
@@ -91,35 +97,76 @@ main {
 nav li a{
   display: none;
 }
-
+/*makes footer not occupy the majority of the display*/
+footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #007056;
+  color: white;
+  text-align: center;
+}
 /* Media Query for Tablet Viewport */
 @media screen and (min-width: 630px), print {
-  header img {
-    display: inline;
-    float: left;
-    height: 95px;
-  }
+    header img {
+      display: inline;
+      float: left;
+      height: 95px;
+    }
+    /*header rule for nav of tablet*/
+    header {
+      top: 0;
+      background-color: #007056;
+      text-align: center;
+      color: #ffffff;
+      font-size: 2em;
+      padding: 1%;
+      height: 140px;
+    }
+    .button {
+      display: inline-grid;
+      grid-template-columns: auto auto;
+    }
 
-  .button {
-    display: inline-grid;
-    grid-template-columns: auto auto;
+    .button a {
+      margin: 10px;
+    }
+/* Navigation CSS for tablet view*/
+  .tablet-nav, #tablet-list, nav li, nav li a{
+    display: block;
   }
-
-  .button a {
-    margin: 10px;
+  .main-text-OAAG{
+    font-size: 2em;
+    text-align: center;
+    text-decoration: bold;
   }
+  .fieldset1-glance{
+    font-size: 1.5em;
 
-.tablet-nav{
+  }
+  #disclaimer-OOAG{
+    font-weight: bold;
+  }
+  .northwest-nav a{
+    display: none;
+  }
+  .tablet-nav{
+      width: auto;
+      margin-left: 0;
+      margin-right: 0;
+      background-color: #000033;
+      box-shadow: 3px 3px 3px #000033;
+      align-items: flex-start;
+      margin-top:7%
+  }
+  nav { font-weight: bold;
+  float: left;
+  width: 160px;
+  padding: 0em 0em 0em 0em;
   display: block;
+  }
 }
-#tablet-list{
-  display: block;
-}
-
-nav li{ display: block;}
-nav li a{ display: block;}
-}
-
 /* Media Query for Desktop Viewport */
 @media screen and (min-width: 1015px), print {
   header img {
@@ -132,10 +179,28 @@ nav li a{ display: block;}
     display: block;
     margin: 5px;
   }
+  /* navigation for Desktop View*/
   .tablet-nav, #tablet-list{
-    display: none;
+    display: block;
   }
+  .tablet-nav{
+      width: auto;
+      margin-left: 0;
+		  margin-right: 0;
+		  background-color: #000033;
+		  box-shadow: 3px 3px 3px #000033;
+      align-items: flex-start;
+  }
+  nav { font-weight: bold;
+  float: left;
+  width: 160px;
+	padding: 0em 0em 0em 0em;
+  display: block;
+}
   nav li a{
+    display: block;
+  }
+  .northwest-nav a{
     display: none;
   }
 
