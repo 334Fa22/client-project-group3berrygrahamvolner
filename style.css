@@ -85,6 +85,13 @@ main {
   display: none;
 }
 
+.tablet-nav, #tablet-list{
+  display: none;
+}
+nav li a{
+  display: none;
+}
+
 /* Media Query for Tablet Viewport */
 @media screen and (min-width: 630px), print {
   header img {
@@ -101,6 +108,16 @@ main {
   .button a {
     margin: 10px;
   }
+
+.tablet-nav{
+  display: block;
+}
+#tablet-list{
+  display: block;
+}
+
+nav li{ display: block;}
+nav li a{ display: block;}
 }
 
 /* Media Query for Desktop Viewport */
@@ -115,4 +132,11 @@ main {
     display: block;
     margin: 5px;
   }
+  .tablet-nav, #tablet-list{
+    display: none;
+  }
+  nav li a{
+    display: none;
+  }
+
 }
