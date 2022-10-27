@@ -2,6 +2,10 @@
 main {
   margin: 0px;
 }
+html {
+  background: url(images/indexBack.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
 
 body {
   background-color: #013328;
@@ -85,12 +89,12 @@ label {
   display: block;
 }
 
-.index-image {
+/*.index-image {
   background-image: url("images/indexBack.jpg");
   background-repeat: no-repeat;
   background-size: auto;
   margin: 0;
-}
+}*/
 
 .standard {
   background-color: white;
@@ -248,10 +252,13 @@ footer {
 
     #wrapper {
       margin: 0 auto;
-      width: 80%;
+      width: 100%;
       height: 100%;
       min-width: 960px;
-      max-width: 1200px;
+      /*max-width: 1200px;*/
+    }
+    body{
+      background-color: None;
     }
 
     =======
