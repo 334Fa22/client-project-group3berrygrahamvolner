@@ -3,10 +3,18 @@ main {
   padding-bottom: 200px;
 }
 
+/* Citation for the below html CSS
+Title: Perfect Full Background Image
+Author:Coyier,C.
+Date: November 20, 2010
+Code Version: 1.0
+Availability: https://css-tricks.com/perfect-full-page-background-image/
+*/
 html {
   background: url(images/indexBack.jpg) no-repeat center center fixed;
   background-size: cover;
 }
+
 
 body {
   background-color: #013328;
