@@ -137,6 +137,7 @@ nav li a {
 }
 
 /*makes footer not occupy the majority of the display*/
+/*footer position set to fixed at the recommendation of Mrs. Linville*/
 footer {
   position: fixed;
   left: 0;
@@ -182,6 +183,10 @@ footer p {
     font-size: 2em;
     padding: 1%;
     height: 140px;
+  }
+
+  h1, h2 {
+    font-size: 150%;
   }
 
   footer {
