@@ -1,7 +1,8 @@
 /*Style rules for mobile viewport*/
 main {
-  margin: 0px;
+  padding-bottom: 200px;
 }
+
 html {
   background: url(images/indexBack.jpg) no-repeat center center fixed;
   background-size: cover;
@@ -24,6 +25,7 @@ header {
 header h1, h2 {
   padding: 0;
   margin: 0;
+  font-size: 98%
 }
 
 header img {
@@ -69,7 +71,7 @@ a.menu-icon {
   text-align: center;
   font-size: 1.5em;
   text-decoration: none;
-  padding: 9%;
+  padding: 2%;
   display: block;
 }
 
@@ -95,7 +97,6 @@ label {
   background-size: auto;
   margin: 0;
 }*/
-
 .standard {
   background-color: white;
 }
@@ -137,162 +138,173 @@ nav li a {
 
 /*makes footer not occupy the majority of the display*/
 footer {
-  position: relative;
+  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
   background-color: #007056;
   color: white;
-  text-align: center;
+  height: 90px;
+}
+
+footer p {
+  margin-top: 0;
+  margin-bottom: 5px;
+  padding: 0;
+}
+
+.tab-desk {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
 }
 
 /* Media Query for Tablet Viewport */
 @media screen and (min-width: 630px), print {
-  <<<<<<< HEAD header img {
+  header img {
     display: inline;
     float: left;
     height: 130px;
   }
 
+  header img {
+    display: inline;
+    float: left;
+    height: 95px;
+  }
+
+  /*header rule for nav of tablet*/
+  header {
+    top: 0;
+    background-color: #007056;
+    text-align: center;
+    color: #ffffff;
+    font-size: 2em;
+    padding: 1%;
+    height: 140px;
+  }
+
+  footer {
+    height: 90px;
+  }
+
   .button {
     display: inline-grid;
     grid-template-columns: auto auto;
-    align: center;
-
-    =======header img {
-      display: inline;
-      float: left;
-      height: 95px;
-    }
-
-    /*header rule for nav of tablet*/
-    header {
-      top: 0;
-      background-color: #007056;
-      text-align: center;
-      color: #ffffff;
-      font-size: 2em;
-      padding: 1%;
-      height: 140px;
-    }
-
-    .button {
-      display: inline-grid;
-      grid-template-columns: auto auto;
-    }
-
-    .button a {
-      margin: 10px;
-    }
-
-    /* Navigation CSS for tablet view*/
-    .tablet-nav, #tablet-list, nav li, nav li a {
-      display: block;
-      >>>>>>>4c7796d398de54367ae5c71bfc076bb1be467d12
-    }
-
-    .main-text-OAAG {
-      font-size: 2em;
-      text-align: center;
-      text-decoration: bold;
-    }
-
-    .fieldset1-glance {
-      font-size: 1.5em;
-    }
-
-    #disclaimer-OOAG {
-      font-weight: bold;
-    }
-
-    .northwest-nav a {
-      display: none;
-    }
-
-    .tablet-nav {
-      width: auto;
-      margin-left: 0;
-      margin-right: 0;
-      background-color: ##007056;
-      align-items: flex-start;
-      margin-top: 7%
-    }
-
-    nav {
-      font-weight: bold;
-      float: left;
-      width: 160px;
-      padding: 0em 0em 0em 0em;
-      display: block;
-    }
-
-    .tab-desk {
-      display: inline-grid;
-      grid-template-columns: auto auto auto;
-      grid-gap: 20px;
-    }
+    grid-gap: 20px;
+    margin-left: 27%;
   }
 
-  /* Media Query for Desktop Viewport */
-  @media screen and (min-width: 1015px), print {
-    header img {
-      display: inline;
-      float: left;
-      height: 130px;
-    }
-
-    form {
-      display: block;
-      margin: 5px;
-    }
-
-    <<<<<<< HEAD .button {
-      grid-template-columns: auto auto auto;
-    }
-
-    #wrapper {
-      margin: 0 auto;
-      width: 100%;
-      height: 100%;
-      min-width: 960px;
-      /*max-width: 1200px;*/
-    }
-    body{
-      background-color: None;
-    }
-
-    =======
-
-    /* navigation for Desktop View*/
-    .tablet-nav, #tablet-list {
-      display: block;
-    }
-
-    .tablet-nav {
-      width: auto;
-      margin-left: 0;
-      margin-right: 0;
-      background-color: #007056;
-    }
-
-    nav {
-      font-weight: bold;
-      float: left;
-      width: 160px;
-      padding: 0em 0em 0em 0em;
-      display: block;
-    }
-
-    nav li a {
-      display: block;
-    }
-
-    .northwest-nav a {
-      display: none;
-    }
-    .button{
-      margin-left: 33%;
-    }
+  .button a {
+    margin: 10px;
   }
 
-  >>>>>>>4c7796d398de54367ae5c71bfc076bb1be467d12
+  /* Navigation CSS for tablet view*/
+  .tablet-nav, #tablet-list, nav li, nav li a {
+    display: block;
+    >>>>>>>4c7796d398de54367ae5c71bfc076bb1be467d12
+  }
+
+  .main-text-OAAG {
+    font-size: 2em;
+    text-align: center;
+    text-decoration: bold;
+  }
+
+  .fieldset1-glance {
+    font-size: 1.5em;
+  }
+
+  #disclaimer-OOAG {
+    font-weight: bold;
+  }
+
+  .northwest-nav a {
+    display: none;
+  }
+
+  .tablet-nav {
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: ##007056;
+    align-items: flex-start;
+    margin-top: 7%
+  }
+
+  nav {
+    font-weight: bold;
+    float: left;
+    width: 160px;
+    padding: 0em 0em 0em 0em;
+    display: block;
+  }
+
+  .tab-desk {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 30px;
+  }
+}
+
+/* Media Query for Desktop Viewport */
+@media screen and (min-width: 1015px), print {
+  header img {
+    display: inline;
+    float: left;
+    height: 130px;
+  }
+
+  form {
+    display: block;
+    margin: 5px;
+  }
+
+  .button {
+    grid-template-columns: auto auto auto;
+  }
+
+  #wrapper {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    min-width: 960px;
+    /*max-width: 1200px;*/
+  }
+
+  body {
+    background-color: None;
+  }
+
+  =======
+
+  /* navigation for Desktop View*/
+  .tablet-nav, #tablet-list {
+    display: block;
+  }
+
+  .tablet-nav {
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #007056;
+  }
+
+  nav {
+    font-weight: bold;
+    float: left;
+    width: 160px;
+    padding: 0em 0em 0em 0em;
+    display: block;
+  }
+
+  nav li a {
+    display: block;
+  }
+
+  .northwest-nav a {
+    display: none;
+  }
+
+  .button {}
+}
