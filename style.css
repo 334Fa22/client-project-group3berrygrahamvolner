@@ -298,7 +298,9 @@ footer p {
   .tablet-nav nav li a{
     color: white;
   }
-
+#textbook-disclaimer{
+  text-align: center;
+}
   nav {
     font-weight: bold;
     float: left;
