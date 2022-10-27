@@ -293,6 +293,10 @@ footer p {
     margin-left: 0;
     margin-right: 0;
     background-color: #007056;
+    margin-top: auto;
+  }
+  .tablet-nav nav li a{
+    color: white;
   }
 
   nav {
