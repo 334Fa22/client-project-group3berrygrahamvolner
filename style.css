@@ -58,13 +58,30 @@ a.menu-icon {
   top: 0;
 }
 
+/*navigation for phone/default view*/
 .northwest-nav a {
   color: #ffffff;
   font-family: "Francois One", sans-serif;
   text-align: center;
   font-size: 1.5em;
   text-decoration: none;
-  padding: 2%;
+  padding: 9%;
+  display: block;
+}
+
+/*fieldset values*/
+.fieldset2-glance, .fieldset1-glance, #disclaimer-OOAG {
+  background-color: #ffffff;
+  background-blend-mode: color;
+}
+
+legend {
+  background-color: #ffffff;
+  border-style: solid;
+  border-width: thin;
+}
+
+label {
   display: block;
 }
 
@@ -101,13 +118,33 @@ a.menu-icon {
   font-weight: bold;
 }
 
+/*makes tablet-nav not display*/
 #nav-html {
   display: none;
 }
 
+.tablet-nav, #tablet-list {
+  display: none;
+}
+
+nav li a {
+  display: none;
+}
+
+/*makes footer not occupy the majority of the display*/
+footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #007056;
+  color: white;
+  text-align: center;
+}
+
 /* Media Query for Tablet Viewport */
 @media screen and (min-width: 630px), print {
-  header img {
+  <<<<<<< HEAD header img {
     display: inline;
     float: left;
     height: 130px;
@@ -117,40 +154,135 @@ a.menu-icon {
     display: inline-grid;
     grid-template-columns: auto auto;
     align: center;
+
+    =======header img {
+      display: inline;
+      float: left;
+      height: 95px;
+    }
+
+    /*header rule for nav of tablet*/
+    header {
+      top: 0;
+      background-color: #007056;
+      text-align: center;
+      color: #ffffff;
+      font-size: 2em;
+      padding: 1%;
+      height: 140px;
+    }
+
+    .button {
+      display: inline-grid;
+      grid-template-columns: auto auto;
+    }
+
+    .button a {
+      margin: 10px;
+    }
+
+    /* Navigation CSS for tablet view*/
+    .tablet-nav, #tablet-list, nav li, nav li a {
+      display: block;
+      >>>>>>>4c7796d398de54367ae5c71bfc076bb1be467d12
+    }
+
+    .main-text-OAAG {
+      font-size: 2em;
+      text-align: center;
+      text-decoration: bold;
+    }
+
+    .fieldset1-glance {
+      font-size: 1.5em;
+    }
+
+    #disclaimer-OOAG {
+      font-weight: bold;
+    }
+
+    .northwest-nav a {
+      display: none;
+    }
+
+    .tablet-nav {
+      width: auto;
+      margin-left: 0;
+      margin-right: 0;
+      background-color: ##007056;
+      align-items: flex-start;
+      margin-top: 7%
+    }
+
+    nav {
+      font-weight: bold;
+      float: left;
+      width: 160px;
+      padding: 0em 0em 0em 0em;
+      display: block;
+    }
+
+    .tab-desk {
+      display: inline-grid;
+      grid-template-columns: auto auto auto;
+      grid-gap: 20px;
+    }
   }
 
-  .button a {
-    margin: 10px;
+  /* Media Query for Desktop Viewport */
+  @media screen and (min-width: 1015px), print {
+    header img {
+      display: inline;
+      float: left;
+      height: 130px;
+    }
+
+    form {
+      display: block;
+      margin: 5px;
+    }
+
+    <<<<<<< HEAD .button {
+      grid-template-columns: auto auto auto;
+    }
+
+    #wrapper {
+      margin: 0 auto;
+      width: 80%;
+      height: 100%;
+      min-width: 960px;
+      max-width: 1200px;
+    }
+
+    =======
+
+    /* navigation for Desktop View*/
+    .tablet-nav, #tablet-list {
+      display: block;
+    }
+
+    .tablet-nav {
+      width: auto;
+      margin-left: 0;
+      margin-right: 0;
+      background-color: #007056;
+    }
+
+    nav {
+      font-weight: bold;
+      float: left;
+      width: 160px;
+      padding: 0em 0em 0em 0em;
+      display: block;
+    }
+
+    nav li a {
+      display: block;
+    }
+
+    .northwest-nav a {
+      display: none;
+    }
   }
 
-  .tab-desk {
-    display: inline-grid;
-    grid-template-columns: auto auto auto;
-    grid-gap: 20px;
-  }
-}
-
-/* Media Query for Desktop Viewport */
-@media screen and (min-width: 1015px), print {
-  header img {
-    display: inline;
-    float: left;
-    height: 130px;
-  }
-
-  form {
-    display: block;
-    margin: 5px;
-  }
-
-  .button {
-    grid-template-columns: auto auto auto;
-  }
-
-  #wrapper {
-    margin: 0 auto;
-    width: 80%;
-    height: 100%;
-    min-width: 960px;
-    max-width: 1200px;
-  }
+  >>>>>>>4c7796d398de54367ae5c71bfc076bb1be467d12
