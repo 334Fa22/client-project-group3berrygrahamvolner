@@ -10,51 +10,54 @@
 </head>
 
 <body>
-  <header>
-    <img src="logo.jpg">
-    <p>NWMSU CATPaws</p>
-  </header>
-  <nav class="northwest-nav">
-    <div id="nav-html">
-      <a href="index.html">Home</a>
-      <a href="appStatus.html">Check Application Status</a>
-      <a href="reset.html">Reset Password</a>
-      <a href="classSchedule.html">Class Schedule</a>
-      <a href="openingsAaG.html">Class Openings at a Glance</a>
-      <a href="onlineOpen.html">Online Class Openings</a>
-      <a href="textbookInfo.html">Textbook Information</a>
-      <a href="TransferEQ.html">Transfer Equivalence</a>
-      <a href="Payment.html">Payment Center</a>
-    </div>
-    <a class="menu-icon" onclick="navfunction()">
-      <div>&#9776;</div>
-    </a>
-  </nav>
-  <main>
-    <h1>Admission Application (Graduate, RN to BSN, or International Students Only)</h1>
-    <h2>New Users</h2>
-    <p>Create your username and PIN <a href="https://ssbprod.nwmissouri.edu/PROD/nwfirst.P_Inputdata">here.</a>
-      <!--This is subject to change and only shows functionality!-->
-    <h2>Returning Users</h2>
-    <p>Login using your username and PIN.</p>
-    <form>
-      <label for="uname">Username:</label>
-      <input type="text" id="uname" name="uname"><br>
-      <label for="pword">Password:</label>
-      <input type="text" id="pword" name="pword"><br>
-      <input type="submit" value="Submit">
-    </form>
-    <p>If you have forgotten your username or PIN, click <a href="https://ssbprod.nwmissouri.edu/PROD/nwforget.P_Inputdata">here</a> to reset it.</p>
-    <!--This also just shows functionality!-->
-  </main>
-  <footer>
-    <div class="mobile">
-      <p>Northwest Missouri State University <br><br> 800 Universtiy Drive <br>Maryville, MO 64468<br><br>
-        admissions@nwmissouri.edu<br>660-562-1212</p>
-      <p>This website was created as a part of the Web Development II course at Northwest Missouri State University.
-        It is not intended for public use.</p>
-    </div>
-  </footer>
+  <div id="wrapper">
+    <header>
+      <img src="images/logo.jpg">
+      <h1>NWMSU CATPaws </h1>
+      <h2>Check Application Status</h2>
+    </header>
+    <nav class="northwest-nav">
+      <div id="nav-html">
+        <a href="index.html">Home</a>
+        <a href="appStatus.html">Check Application Status</a>
+        <a href="reset.html">Reset Password</a>
+        <a href="classSchedule.html">Class Schedule</a>
+        <a href="openingsAaG.html">Class Openings at a Glance</a>
+        <a href="onlineOpen.html">Online Class Openings</a>
+        <a href="textbookInfo.html">Textbook Information</a>
+        <a href="TransferEQ.html">Transfer Equivalence</a>
+        <a href="Payment.html">Payment Center</a>
+      </div>
+      <a class="menu-icon" onclick="navfunction()">
+        <div>&#9776;</div>
+      </a>
+    </nav>
+    <main class="standard">
+      <h1>Admission Application (Graduate, RN to BSN, or International Students Only)</h1>
+      <h2>New Users</h2>
+      <p>Create your username and PIN <a href="https://ssbprod.nwmissouri.edu/PROD/nwfirst.P_Inputdata">here.</a>
+        <!--This is subject to change and only shows functionality!-->
+      <h2>Returning Users</h2>
+      <p>Login using your username and PIN.</p>
+      <form>
+        <label for="uname">Username:</label>
+        <input type="text" id="uname" name="uname"><br>
+        <label for="pword">Password:</label>
+        <input type="text" id="pword" name="pword"><br>
+        <input type="submit" value="Submit">
+      </form>
+      <p>If you have forgotten your username or PIN, click <a href="https://ssbprod.nwmissouri.edu/PROD/nwforget.P_Inputdata">here</a> to reset it.</p>
+      <!--This also just shows functionality!-->
+    </main>
+    <footer>
+      <div class="mobile">
+        <p>Northwest Missouri State University <br><br> 800 Universtiy Drive <br>Maryville, MO 64468<br><br>
+          admissions@nwmissouri.edu<br>660-562-1212</p>
+        <p>This website was created as a part of the Web Development II course at Northwest Missouri State University.
+          It is not intended for public use.</p>
+      </div>
+    </footer>
+  </div>
   <script src="scripts/scripts.js"></script>
 </body>
 

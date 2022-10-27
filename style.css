@@ -3,6 +3,10 @@ main {
   margin: 0px;
 }
 
+body {
+  background-color: #013328;
+}
+
 header {
   top: 0;
   background-color: #007056;
@@ -10,7 +14,12 @@ header {
   color: #ffffff;
   font-size: 2em;
   padding: 1%;
-  height: 90px;
+  height: auto;
+}
+
+header h1, h2 {
+  padding: 0;
+  margin: 0;
 }
 
 header img {
@@ -30,8 +39,6 @@ nav ul {
   list-style-type: none;
 }
 
-main {}
-
 footer {
   position: fixed;
   left: 0;
@@ -40,6 +47,15 @@ footer {
   background-color: #007056;
   color: white;
   text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+a.menu-icon {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 .northwest-nav a {
@@ -52,11 +68,15 @@ footer {
   display: block;
 }
 
-main {
+.index-image {
   background-image: url("images/indexBack.jpg");
   background-repeat: no-repeat;
   background-size: auto;
   margin: 0;
+}
+
+.standard {
+  background-color: white;
 }
 
 .button button {
@@ -90,16 +110,23 @@ main {
   header img {
     display: inline;
     float: left;
-    height: 95px;
+    height: 130px;
   }
 
   .button {
     display: inline-grid;
     grid-template-columns: auto auto;
+    align: center;
   }
 
   .button a {
     margin: 10px;
+  }
+
+  .tab-desk {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
   }
 }
 
@@ -108,11 +135,22 @@ main {
   header img {
     display: inline;
     float: left;
-    height: 150px;
+    height: 130px;
   }
 
   form {
     display: block;
     margin: 5px;
   }
-}
+
+  .button {
+    grid-template-columns: auto auto auto;
+  }
+
+  #wrapper {
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+    min-width: 960px;
+    max-width: 1200px;
+  }

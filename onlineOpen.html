@@ -10,88 +10,91 @@
 </head>
 
 <body>
-  <header>
-    <img src="logo.jpg">
-    <p>NWMSU CATPaws <br> Online Class Openings</p>
-  </header>
-  <nav class="northwest-nav">
-    <div id="nav-html">
-      <a href="index.html">Home</a>
-      <a href="appStatus.html">Check Application Status</a>
-      <a href="reset.html">Reset Password</a>
-      <a href="classSchedule.html">Class Schedule</a>
-      <a href="openingsAaG.html">Class Openings at a Glance</a>
-      <a href="onlineOpen.html">Online Class Openings</a>
-      <a href="textbookInfo.html">Textbook Information</a>
-      <a href="TransferEQ.html">Transfer Equivalence</a>
-      <a href="Payment.html">Payment Center</a>
-    </div>
-    <a class="menu-icon" onclick="navfunction()">
-      <div>&#9776;</div>
-    </a>
-  </nav>
-  <main>
-    <fieldset>
-      <legend>Search for Online Class Openings</legend>
-      <label>Select Term:</label>
-      <select for="term">
-        <option value="">Spring 2023</option>
-        <option value="">Fall 2022</option>
-        <option value="">Summer 2022(Inactive)</option>
-        <option value="">Spring 2022 (Inactive)</option>
-        <option value="">Fall 2021(Inactive)</option>
-        <option value="">Summer 2021(Inactive)</option>
-        <option value="">Spring 2021 (Inactive)</option>
-        <option value="">Fall 2020(Inactive)</option>
-        <option value="">Summer 2020 (Inactive)</option>
-        <option value="">Spring 2020(Inactive)</option>
-        <option value="">Fall 2019(Inactive)</option>
-        <option value="">Summer 2019 (Inactive)</option>
-        <option value="">Spring 2019(Inactive)</option>
-        <option value="">Fall 2018 (Inactive)</option>
-        <option value="">Summer 2018(Inactive)</option>
-        <option value="">Spring 2018(Inactive)</option>
-        <option value="">Fall 2017 (Inactive)</option>
-        <option value="">Summer 2017(Inactive)</option>
-        <option value="">Spring 2017 (Inactive)</option>
-        <option value="">Fall 2016(Inactive)</option>
-        <option value="">Summer 2015(Inactive)</option>
-        <option value="">Spring 2015 (Inactive)</option>
-        <option value="">Fall 2014(Inactive)</option>
-        <option value="">Summer 2014 (Inactive)</option>
-        <option value="">Spring 2014(Inactive)</option>
-      </select>
-      <label>Select Department:</label>
-      <select for="department">
-        <option value="">Accounting/51</option>
-        <option value="">Agriculuture/03</option>
-        <option value="">Art/13</option>
-        <option value="">Biological Sciences/04</option>
-        <option value="">Booth College Bus & Prof St/76</option>
-        <option value="">Career Education/02</option>
-        <option value="">Chemistry/24</option>
-        <option value="">College of Arts & Sciences/71</option>
-        <option value="">College of Ed & Human Serv/73</option>
-        <option value="">Communication/29</option>
-        <option value="">Computer Sci/Info Systems/44</option>
-        <option value="">Criminology/46</option>
-        <option value="">Economics/52</option>
-        <option value="">Education: Curriculum/Instr/62</option>
-        <option value="">Education: Genl/Leadership/61</option>
-        <option value="">Emergency and Disaster Mgmt/36</option>
-      </select>
-      <Label>Search by CRN:</label>
-      <input type="text" id="crn" name="CRN">
-      <input type="submit" id="Submit">
-    </fieldset>
-    <button>Help</button>
-  </main>
-  <footer>
-    <div class="mobile">
-      <p>Northwest Missouri State University <br><br> 800 Universtiy Drive <br>Maryville, MO 64468<br><br>
-        admissions@nwmissouri.edu<br>660-562-1212</p>
-    </div>
-  </footer>
+  <div id="wrapper">
+    <header>
+      <img src="images/logo.jpg">
+      <h1>NWMSU CATPaws </h1>
+      <h2>Online Openings</h2>
+    </header>
+    <nav class="northwest-nav">
+      <div id="nav-html">
+        <a href="index.html">Home</a>
+        <a href="appStatus.html">Check Application Status</a>
+        <a href="reset.html">Reset Password</a>
+        <a href="classSchedule.html">Class Schedule</a>
+        <a href="openingsAaG.html">Class Openings at a Glance</a>
+        <a href="onlineOpen.html">Online Class Openings</a>
+        <a href="textbookInfo.html">Textbook Information</a>
+        <a href="TransferEQ.html">Transfer Equivalence</a>
+        <a href="Payment.html">Payment Center</a>
+      </div>
+      <a class="menu-icon" onclick="navfunction()">
+        <div>&#9776;</div>
+      </a>
+    </nav>
+    <main class="standard">
+      <fieldset>
+        <legend>Search for Online Class Openings</legend>
+        <label>Select Term:</label>
+        <select for="term">
+          <option value="">Spring 2023</option>
+          <option value="">Fall 2022</option>
+          <option value="">Summer 2022(Inactive)</option>
+          <option value="">Spring 2022 (Inactive)</option>
+          <option value="">Fall 2021(Inactive)</option>
+          <option value="">Summer 2021(Inactive)</option>
+          <option value="">Spring 2021 (Inactive)</option>
+          <option value="">Fall 2020(Inactive)</option>
+          <option value="">Summer 2020 (Inactive)</option>
+          <option value="">Spring 2020(Inactive)</option>
+          <option value="">Fall 2019(Inactive)</option>
+          <option value="">Summer 2019 (Inactive)</option>
+          <option value="">Spring 2019(Inactive)</option>
+          <option value="">Fall 2018 (Inactive)</option>
+          <option value="">Summer 2018(Inactive)</option>
+          <option value="">Spring 2018(Inactive)</option>
+          <option value="">Fall 2017 (Inactive)</option>
+          <option value="">Summer 2017(Inactive)</option>
+          <option value="">Spring 2017 (Inactive)</option>
+          <option value="">Fall 2016(Inactive)</option>
+          <option value="">Summer 2015(Inactive)</option>
+          <option value="">Spring 2015 (Inactive)</option>
+          <option value="">Fall 2014(Inactive)</option>
+          <option value="">Summer 2014 (Inactive)</option>
+          <option value="">Spring 2014(Inactive)</option>
+        </select>
+        <label>Select Department:</label>
+        <select for="department">
+          <option value="">Accounting/51</option>
+          <option value="">Agriculuture/03</option>
+          <option value="">Art/13</option>
+          <option value="">Biological Sciences/04</option>
+          <option value="">Booth College Bus & Prof St/76</option>
+          <option value="">Career Education/02</option>
+          <option value="">Chemistry/24</option>
+          <option value="">College of Arts & Sciences/71</option>
+          <option value="">College of Ed & Human Serv/73</option>
+          <option value="">Communication/29</option>
+          <option value="">Computer Sci/Info Systems/44</option>
+          <option value="">Criminology/46</option>
+          <option value="">Economics/52</option>
+          <option value="">Education: Curriculum/Instr/62</option>
+          <option value="">Education: Genl/Leadership/61</option>
+          <option value="">Emergency and Disaster Mgmt/36</option>
+        </select>
+        <Label>Search by CRN:</label>
+        <input type="text" id="crn" name="CRN">
+        <input type="submit" id="Submit">
+      </fieldset>
+      <button>Help</button>
+    </main>
+    <footer>
+      <div class="mobile">
+        <p>Northwest Missouri State University <br><br> 800 Universtiy Drive <br>Maryville, MO 64468<br><br>
+          admissions@nwmissouri.edu<br>660-562-1212</p>
+      </div>
+    </footer>
+  </div>
   <script src="scripts/scripts.js"></script>
 </body>
 

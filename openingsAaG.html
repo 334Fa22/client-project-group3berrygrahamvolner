@@ -10,31 +10,32 @@
 </head>
 
 <body>
-  <header>
-    <img src="logo.jpg">
-    <p>NWMSU CATPaws</p>
-    <p>Northwest Class Openings</p>
-  </header>
-  <nav class="northwest-nav">
-    <div id="nav-html">
-      <a href="index.html">Home</a>
-      <a href="appStatus.html">Check Application Status</a>
-      <a href="reset.html">Reset Password</a>
-      <a href="classSchedule.html">Class Schedule</a>
-      <a href="openingsAaG.html">Class Openings at a Glance</a>
-      <a href="onlineOpen.html">Online Class Openings</a>
-      <a href="textbookInfo.html">Textbook Information</a>
-      <a href="TransferEQ.html">Transfer Equivalence</a>
-      <a href="Payment.html">Payment Center</a>
-    </div>
-    <a class="menu-icon" onclick="navfunction()">
-      <div>&#9776;</div>
-    </a>
-  </nav>
-  <main>
-    <h1>Search for Class Openings</h1>
-    <fieldset>
-      <legend>Select Term:</legend>
+  <div id="wrapper">
+    <header>
+      <img src="imageslogo.jpg">
+      <h1>NWMSU CATPaws</h1>
+      <h2>Northwest Class Openings</h2>
+    </header>
+    <nav class="northwest-nav">
+      <div id="nav-html">
+        <a href="index.html">Home</a>
+        <a href="appStatus.html">Check Application Status</a>
+        <a href="reset.html">Reset Password</a>
+        <a href="classSchedule.html">Class Schedule</a>
+        <a href="openingsAaG.html">Class Openings at a Glance</a>
+        <a href="onlineOpen.html">Online Class Openings</a>
+        <a href="textbookInfo.html">Textbook Information</a>
+        <a href="TransferEQ.html">Transfer Equivalence</a>
+        <a href="Payment.html">Payment Center</a>
+      </div>
+      <a class="menu-icon" onclick="navfunction()">
+        <div>&#9776;</div>
+      </a>
+    </nav>
+    <main class="standard">
+      <h1>Search for Class Openings</h1>
+      <fieldset>
+        <legend>Select Term:</legend>
         <select for="term">
           <option value="">Spring 2023</option>
           <option value="">Fall 2022</option>
@@ -62,7 +63,7 @@
           <option value="">Summer 2014 (Inactive)</option>
           <option value="">Spring 2014(Inactive)</option>
         </select>
-      <label>Department:</label>
+        <label>Department:</label>
         <select for="Department">
           <option value="">Accounting/51</option>
           <option value="">Agriculuture/03</option>
@@ -81,14 +82,14 @@
           <option value="">Education: Genl/Leadership/61</option>
           <option value="">Emergency and Disaster Mgmt/36</option>
         </select>
-      <label>Level:</label>
+        <label>Level:</label>
         <select for="Level">
           <option>ALL</option>
           <option>Graduate</option>
           <option>Specialist</option>
           <option>Undergraduate</option>
         </select>
-      <label>Part of Term:</label>
+        <label>Part of Term:</label>
         <select for="Partof">
           <option>ALL</option>
           <option>1&2 Block</option>
@@ -104,7 +105,7 @@
           <option>Second Block</option>
           <option>Third Block</option>
         </select>
-      <label>Attribute:</label>
+        <label>Attribute:</label>
         <select for="Attribute">
           <option>AMNH Science Seminar</option>
           <option>Blended Course</option>
@@ -125,7 +126,7 @@
           <option>NW Core Mathematical Sciences</option>
           <option>NW Core Oral Communication</option>
         </select>
-      <label>Instructor:</label>
+        <label>Instructor:</label>
         <select for="Instructor">
           <option>ALL</option>
           <option>Abernathy,Deborah</option>
@@ -150,12 +151,12 @@
           <option>Aramjoo,Ashley</option>
         </select>
         <button>Submit</button>
-    </fieldset>
-    <fieldset>
-      <legend>Advanced Search</legend>
-      <label>Course Number:</label>
+      </fieldset>
+      <fieldset>
+        <legend>Advanced Search</legend>
+        <label>Course Number:</label>
         <input type="text">
-      <label>Core Category:</label>
+        <label>Core Category:</label>
         <select>
           <option>None</option>
           <option>All</option>
@@ -174,18 +175,18 @@
           <option>NW Core Written Communication</option>
         </select>
         <button>Submit</button>
-    </fieldset>
-    <p>Disclaimer: Publication of the class schedule is not a guarantee and is subject to change</p><button>Help</button>
-  </main>
-  <footer>
-    <div class="mobile">
-      <p>Northwest Missouri State University <br><br> 800 Universtiy Drive <br>Maryville, MO 64468<br><br>
-        admissions@nwmissouri.edu<br>660-562-1212</p>
-      <p>This website was created as a part of the Web Development II course at Northwest Missouri State University.
-        It is not intended for public use.</p>
-    </div>
-  </footer>
-  <script src="scripts/scripts.js"></script>
+      </fieldset>
+      <p>Disclaimer: Publication of the class schedule is not a guarantee and is subject to change</p><button>Help</button>
+    </main>
+    <footer>
+      <div class="mobile">
+        <p>Northwest Missouri State University <br><br> 800 Universtiy Drive <br>Maryville, MO 64468<br><br>
+          admissions@nwmissouri.edu<br>660-562-1212</p>
+        <p>This website was created as a part of the Web Development II course at Northwest Missouri State University.
+          It is not intended for public use.</p>
+      </div>
+    </footer>
+    <script src="scripts/scripts.js"></script>
 </body>
 
 </html>
