@@ -283,6 +283,9 @@ footer {
     .northwest-nav a {
       display: none;
     }
+    .button{
+      margin-left: 33%;
+    }
   }
 
   >>>>>>>4c7796d398de54367ae5c71bfc076bb1be467d12
