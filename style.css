@@ -137,6 +137,14 @@ nav li a {
   display: none;
 }
 
+/*Accessibility mode styling*/
+.accessibility {
+  float: none;
+  display: block;
+  background-color: white;
+  color: black;
+}
+
 /*makes footer not occupy the majority of the display*/
 /*footer position set to fixed at the recommendation of Mrs. Linville*/
 footer {
@@ -281,8 +289,6 @@ footer p {
   body {
     background-color: None;
   }
-
-  =======
 
   /* navigation for Desktop View*/
   .tablet-nav, #tablet-list {
