@@ -115,7 +115,7 @@ label {
   border: none;
   cursor: pointer;
   margin-top: 5px;
-  box-shadow: 0px, 2px, 0px, #000000;
+  box-shadow: 0px 2px #000000;
 }
 
 .button p {
@@ -216,13 +216,12 @@ footer p {
   /* Navigation CSS for tablet view*/
   .tablet-nav, #tablet-list, nav li, nav li a {
     display: block;
-    >>>>>>>4c7796d398de54367ae5c71bfc076bb1be467d12
   }
 
   .main-text-OAAG {
     font-size: 2em;
     text-align: center;
-    text-decoration: bold;
+    font-weight: bold;
   }
 
   .fieldset1-glance {
@@ -241,7 +240,7 @@ footer p {
     width: auto;
     margin-left: 0;
     margin-right: 0;
-    background-color: ##007056;
+    background-color: #007056;
     align-items: flex-start;
     margin-top: 7%
   }
@@ -284,10 +283,6 @@ footer p {
     height: 100%;
     min-width: 960px;
     /*max-width: 1200px;*/
-  }
-
-  body {
-    background-color: None;
   }
 
   /* navigation for Desktop View*/
