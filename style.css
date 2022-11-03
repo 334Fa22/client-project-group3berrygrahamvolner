@@ -138,19 +138,19 @@ nav li a {
 }
 
 /*Accessibility mode styling*/
-.accessibility {
+.access {
+  display: inline-block;
   float: center;
   width: 100%;
-  display: inline-block;
   background-color: white;
   font-size: 1.25em;
 }
 
-.accessibility a {
+.access a {
   color: black;
 }
 
-.accessibility li {
+.access li {
   margin-bottom: 5px;
 }
 
