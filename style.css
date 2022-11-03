@@ -330,5 +330,7 @@ footer p {
     display: none;
   }
 
-  .button {}
+  .tablet-nav, #tablet-list, nav li, nav li a {
+    color: white;
+  }
 }
