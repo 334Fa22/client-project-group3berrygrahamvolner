@@ -133,10 +133,6 @@ label {
   display: none;
 }
 
-/*nav li a {
-  display: none;
-}*/
-
 /*Accessibility mode styling*/
 .access {
   display: inline-block;
@@ -148,6 +144,7 @@ label {
 
 .access a {
   color: black;
+  font-weight: bold;
 }
 
 .access li {
