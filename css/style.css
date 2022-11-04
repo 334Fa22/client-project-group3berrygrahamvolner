@@ -136,7 +136,6 @@ label {
 /*Accessibility mode styling*/
 .access {
   display: inline-block;
-  float: center;
   width: 100%;
   background-color: white;
   font-size: 1.25em;
