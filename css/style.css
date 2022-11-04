@@ -41,7 +41,7 @@ header img {
 
 nav {
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 0px;
   background-color: #007056;
   color: #ffffff;
   text-decoration: none;
@@ -221,6 +221,7 @@ footer p {
   /* Navigation CSS for tablet view*/
   .tablet-nav, #tablet-list, nav li, nav li a {
     display: block;
+    color: white;
   }
 
   .main-text-OAAG {
