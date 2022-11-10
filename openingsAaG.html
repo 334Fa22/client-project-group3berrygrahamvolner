@@ -9,7 +9,7 @@
   <title>NWMSU CATPaws <br> Openings at-a-Glance</title>
   <meta charset="utf-8">
   <link rel="stylesheet" href="css/style.min.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="device-width" , initial-scale="1.0">
   <meta name="description" content="Search for online class openings at Northwest Missouri State University.">
 </head>
 
@@ -52,8 +52,9 @@
     <main class="standard">
       <h1>Search for Class Openings</h1>
       <fieldset class="fieldset1-glance">
-        <legend>Select Term:</legend>
-        <select>
+        <legend>Basic Search</legend>
+        <label for="term">Select Term:</label>
+        <select name="term" id="term">
           <option value="">Spring 2023</option>
           <option value="">Fall 2022</option>
           <option value="">Summer 2022(Inactive)</option>
@@ -80,8 +81,8 @@
           <option value="">Summer 2014 (Inactive)</option>
           <option value="">Spring 2014(Inactive)</option>
         </select>
-        <label>Department:</label>
-        <select>
+        <label for="department">Department:</label>
+        <select name="department" id="department">
           <option value="">Accounting/51</option>
           <option value="">Agriculuture/03</option>
           <option value="">Art/13</option>
@@ -99,15 +100,15 @@
           <option value="">Education: Genl/Leadership/61</option>
           <option value="">Emergency and Disaster Mgmt/36</option>
         </select>
-        <label>Level:</label>
-        <select>
+        <label for="level">Level:</label>
+        <select name="level" id="level">
           <option>ALL</option>
           <option>Graduate</option>
           <option>Specialist</option>
           <option>Undergraduate</option>
         </select>
-        <label>Part of Term:</label>
-        <select>
+        <label for="pTerm">Part of Term:</label>
+        <select name="pTerm" id="pTerm">
           <option>ALL</option>
           <option>1&2 Block</option>
           <option>2&3 Block</option>
@@ -122,8 +123,8 @@
           <option>Second Block</option>
           <option>Third Block</option>
         </select>
-        <label>Attribute:</label>
-        <select>
+        <label for="attribute">Attribute:</label>
+        <select name="attribute" id="attribute">
           <option>AMNH Science Seminar</option>
           <option>Blended Course</option>
           <option>China - International Location</option>
@@ -143,8 +144,8 @@
           <option>NW Core Mathematical Sciences</option>
           <option>NW Core Oral Communication</option>
         </select>
-        <label>Instructor:</label>
-        <select>
+        <label for="instruct">Instructor:</label>
+        <select name="instruct" id="instruct">
           <option>ALL</option>
           <option>Abernathy,Deborah</option>
           <option>Abington,Casey</option>
@@ -170,10 +171,10 @@
         <button>Submit</button>
         <fieldset class="fieldset2-glance">
           <legend>Advanced Search</legend>
-          <label>Course Number:</label>
-          <input type="text">
-          <label>Core Category:</label>
-          <select>
+          <label for="cNum">Course Number:</label>
+          <input type="text" name="cNum" id="cNum">
+          <label for="categ">Core Category:</label>
+          <select name="categ" id="categ">
             <option>None</option>
             <option>All</option>
             <option>INACTIVE NW Core Western Exp</option>
