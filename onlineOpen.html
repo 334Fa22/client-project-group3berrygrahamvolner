@@ -52,8 +52,8 @@
     <main class="standard">
       <fieldset class="fieldset1-glance">
         <legend>Search for Online Class Openings</legend>
-        <label>Select Term:</label>
-        <select>
+        <label for="onlineTerm">Select Term:</label>
+        <select for="onlineTerm" id="onlineTerm">
           <option value="">Spring 2023</option>
           <option value="">Fall 2022</option>
           <option value="">Summer 2022(Inactive)</option>
@@ -80,8 +80,8 @@
           <option value="">Summer 2014 (Inactive)</option>
           <option value="">Spring 2014(Inactive)</option>
         </select>
-        <label>Select Department:</label>
-        <select>
+        <label for="onlineDepart">Select Department:</label>
+        <select name="onlineDepart" id="onlineDepart">
           <option value="">Accounting/51</option>
           <option value="">Agriculuture/03</option>
           <option value="">Art/13</option>
@@ -99,7 +99,7 @@
           <option value="">Education: Genl/Leadership/61</option>
           <option value="">Emergency and Disaster Mgmt/36</option>
         </select>
-        <Label>Search by CRN:</label>
+        <Label for="onlineCRN">Search by CRN:</label>
         <input type="text" id="crn" name="CRN">
         <input type="submit" id="Submit">
       </fieldset>
