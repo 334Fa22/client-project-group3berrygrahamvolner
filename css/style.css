@@ -76,9 +76,9 @@ a.menu-icon {
   color: #ffffff;
   font-family: "Francois One", sans-serif;
   text-align: center;
-  font-size: 1.5em;
+  font-size: .5em;
   text-decoration: none;
-  padding: 2%;
+  padding: .5%;
   display: block;
 }
 
@@ -277,6 +277,10 @@ footer p {
   form {
     display: block;
     margin: 5px;
+  }
+
+  .standard {
+    margin-left: 2%;
   }
 
   .button {
