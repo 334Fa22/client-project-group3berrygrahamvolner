@@ -36,8 +36,13 @@ nav {
   margin-bottom: 0;
   background-color: #007056;
   color: #fff;
+}
+
+nav a {
   text-decoration: none;
-  font-size: 1em
+  padding-right: 5px;
+  padding-top: 2%;
+  font-size: 1.3em;
 }
 
 nav ul {
@@ -201,8 +206,6 @@ footer p {
     font-size: 1.3em;
   }
 
-
-
   .main-text-OAAG {
     font-size: 2em;
     text-align: center;
@@ -218,7 +221,6 @@ footer p {
     font-weight: 700
   }
 
-
   .northwest-nav a {
     color: #fff;
     font-family: "Francois One", sans-serif;
@@ -228,19 +230,17 @@ footer p {
     padding: 1%;
     display: block
   }
+
   nav {
     margin-top: 0;
     margin-bottom: 0;
     background-color: #007056;
     color: #fff;
-    text-decoration: none;
-    font-size: 1em
   }
 
   nav ul {
     list-style-type: none
   }
-
 
   fieldset {
     padding-right: 5px;
@@ -258,8 +258,6 @@ footer p {
     grid-template-columns: auto auto auto;
     grid-gap: 30px
   }
-
-
 }
 
 @media screen and (min-width:1015px), print {
